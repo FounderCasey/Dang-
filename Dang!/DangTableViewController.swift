@@ -13,7 +13,6 @@ class DangTableViewController: UITableViewController {
     
     let ref = FIRDatabase.database().reference(withPath: "dang")
     
-    
     var dangItems: [DangItem] = []
     var voteCount: String = ""
     
