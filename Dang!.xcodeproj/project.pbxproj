@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EA61FC79ABE9EBFCC2A9C60 /* Pods_Dang_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C19CBA9932092F5515BA00E /* Pods_Dang_.framework */; };
+		C945D07F1E550EE2004651F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945D07E1E550EE2004651F6 /* AppDelegate.swift */; };
+		C945D0811E550EE2004651F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945D0801E550EE2004651F6 /* LoginViewController.swift */; };
+		C945D0841E550EE2004651F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945D0821E550EE2004651F6 /* Main.storyboard */; };
+		C945D0861E550EE2004651F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C945D0851E550EE2004651F6 /* Assets.xcassets */; };
+		C945D0891E550EE2004651F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945D0871E550EE2004651F6 /* LaunchScreen.storyboard */; };
+		C945D0931E551120004651F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C945D0921E551120004651F6 /* GoogleService-Info.plist */; };
+		C945D0971E551E45004651F6 /* DangTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945D0961E551E45004651F6 /* DangTableViewController.swift */; };
+		C945D09B1E5523E8004651F6 /* AddDangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945D09A1E5523E8004651F6 /* AddDangViewController.swift */; };
+		C945D09D1E552623004651F6 /* DangItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945D09C1E552623004651F6 /* DangItem.swift */; };
+		C945D09F1E552A1E004651F6 /* DangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945D09E1E552A1E004651F6 /* DangTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4034D49A9B40F66CB9520890 /* Pods-Dang!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dang!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dang!/Pods-Dang!.release.xcconfig"; sourceTree = "<group>"; };
+		6C19CBA9932092F5515BA00E /* Pods_Dang_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dang_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC8E7D462CE03588075ACA4 /* Pods-Dang!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dang!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dang!/Pods-Dang!.debug.xcconfig"; sourceTree = "<group>"; };
+		C945D07B1E550EE2004651F6 /* Dang!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dang!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C945D07E1E550EE2004651F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C945D0801E550EE2004651F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C945D0831E550EE2004651F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C945D0851E550EE2004651F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C945D0881E550EE2004651F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C945D08A1E550EE2004651F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C945D0921E551120004651F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C945D0961E551E45004651F6 /* DangTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DangTableViewController.swift; sourceTree = "<group>"; };
+		C945D09A1E5523E8004651F6 /* AddDangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDangViewController.swift; sourceTree = "<group>"; };
+		C945D09C1E552623004651F6 /* DangItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DangItem.swift; sourceTree = "<group>"; };
+		C945D09E1E552A1E004651F6 /* DangTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DangTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C945D0781E550EE2004651F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA61FC79ABE9EBFCC2A9C60 /* Pods_Dang_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC7DCED5EF24FAAA1E8D7A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C19CBA9932092F5515BA00E /* Pods_Dang_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13DAB228D1AF46D0F689B88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8E7D462CE03588075ACA4 /* Pods-Dang!.debug.xcconfig */,
+				4034D49A9B40F66CB9520890 /* Pods-Dang!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C945D0721E550EE2004651F6 = {
+			isa = PBXGroup;
+			children = (
+				C945D07D1E550EE2004651F6 /* Dang! */,
+				C945D07C1E550EE2004651F6 /* Products */,
+				B13DAB228D1AF46D0F689B88 /* Pods */,
+				AFC7DCED5EF24FAAA1E8D7A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C945D07C1E550EE2004651F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C945D07B1E550EE2004651F6 /* Dang!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C945D07D1E550EE2004651F6 /* Dang! */ = {
+			isa = PBXGroup;
+			children = (
+				C945D07E1E550EE2004651F6 /* AppDelegate.swift */,
+				C945D0801E550EE2004651F6 /* LoginViewController.swift */,
+				C945D09C1E552623004651F6 /* DangItem.swift */,
+				C945D0961E551E45004651F6 /* DangTableViewController.swift */,
+				C945D09E1E552A1E004651F6 /* DangTableViewCell.swift */,
+				C945D09A1E5523E8004651F6 /* AddDangViewController.swift */,
+				C945D0821E550EE2004651F6 /* Main.storyboard */,
+				C945D0851E550EE2004651F6 /* Assets.xcassets */,
+				C945D0871E550EE2004651F6 /* LaunchScreen.storyboard */,
+				C945D08A1E550EE2004651F6 /* Info.plist */,
+				C945D0921E551120004651F6 /* GoogleService-Info.plist */,
+			);
+			path = "Dang!";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C945D07A1E550EE2004651F6 /* Dang! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C945D08D1E550EE2004651F6 /* Build configuration list for PBXNativeTarget "Dang!" */;
+			buildPhases = (
+				D5FA340EE41955F39BFA79F7 /* [CP] Check Pods Manifest.lock */,
+				C945D0771E550EE2004651F6 /* Sources */,
+				C945D0781E550EE2004651F6 /* Frameworks */,
+				C945D0791E550EE2004651F6 /* Resources */,
+				6DBF8B60DA6353F311D68779 /* [CP] Embed Pods Frameworks */,
+				FE44BC6FB7FDFE11A19C45C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dang!";
+			productName = "Dang!";
+			productReference = C945D07B1E550EE2004651F6 /* Dang!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C945D0731E550EE2004651F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Casey Wilcox";
+				TargetAttributes = {
+					C945D07A1E550EE2004651F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z498U76K8U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C945D0761E550EE2004651F6 /* Build configuration list for PBXProject "Dang!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C945D0721E550EE2004651F6;
+			productRefGroup = C945D07C1E550EE2004651F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C945D07A1E550EE2004651F6 /* Dang! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C945D0791E550EE2004651F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945D0891E550EE2004651F6 /* LaunchScreen.storyboard in Resources */,
+				C945D0931E551120004651F6 /* GoogleService-Info.plist in Resources */,
+				C945D0861E550EE2004651F6 /* Assets.xcassets in Resources */,
+				C945D0841E550EE2004651F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DBF8B60DA6353F311D68779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dang!/Pods-Dang!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5FA340EE41955F39BFA79F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE44BC6FB7FDFE11A19C45C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dang!/Pods-Dang!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C945D0771E550EE2004651F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945D0971E551E45004651F6 /* DangTableViewController.swift in Sources */,
+				C945D09D1E552623004651F6 /* DangItem.swift in Sources */,
+				C945D09B1E5523E8004651F6 /* AddDangViewController.swift in Sources */,
+				C945D0811E550EE2004651F6 /* LoginViewController.swift in Sources */,
+				C945D09F1E552A1E004651F6 /* DangTableViewCell.swift in Sources */,
+				C945D07F1E550EE2004651F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C945D0821E550EE2004651F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945D0831E550EE2004651F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C945D0871E550EE2004651F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945D0881E550EE2004651F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C945D08B1E550EE2004651F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C945D08C1E550EE2004651F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C945D08E1E550EE2004651F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC8E7D462CE03588075ACA4 /* Pods-Dang!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z498U76K8U;
+				INFOPLIST_FILE = "Dang!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caseywilcox.Dang-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C945D08F1E550EE2004651F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4034D49A9B40F66CB9520890 /* Pods-Dang!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z498U76K8U;
+				INFOPLIST_FILE = "Dang!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caseywilcox.Dang-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C945D0761E550EE2004651F6 /* Build configuration list for PBXProject "Dang!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945D08B1E550EE2004651F6 /* Debug */,
+				C945D08C1E550EE2004651F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C945D08D1E550EE2004651F6 /* Build configuration list for PBXNativeTarget "Dang!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945D08E1E550EE2004651F6 /* Debug */,
+				C945D08F1E550EE2004651F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C945D0731E550EE2004651F6 /* Project object */;
+}
