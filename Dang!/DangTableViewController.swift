@@ -58,6 +58,7 @@ class DangTableViewController: UITableViewController {
     
     @IBAction func addVote(_ sender: Any) {
         //Add votes
+        print("Voted For")
     }
 
 }

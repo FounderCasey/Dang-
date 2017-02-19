@@ -89,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				C945D07E1E550EE2004651F6 /* AppDelegate.swift */,
-				C945D0801E550EE2004651F6 /* LoginViewController.swift */,
 				C945D09C1E552623004651F6 /* DangItem.swift */,
+				C945D0801E550EE2004651F6 /* LoginViewController.swift */,
 				C945D0961E551E45004651F6 /* DangTableViewController.swift */,
 				C945D09E1E552A1E004651F6 /* DangTableViewCell.swift */,
 				C945D09A1E5523E8004651F6 /* AddDangViewController.swift */,

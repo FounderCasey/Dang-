@@ -14,7 +14,7 @@ class AddDangViewController: UIViewController, UITextViewDelegate {
     let ref = FIRDatabase.database().reference(withPath: "dang")
     
     @IBOutlet weak var textView: UITextView!
-    let dangScore = "0"
+    let votes = "0"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,7 @@ class AddDangViewController: UIViewController, UITextViewDelegate {
         if textView.text.isEmpty {
             displayAlert(title: "Oops...", message: "It looks like you forgot some characters.")
         } else {
-            let dangItem = DangItem(text: self.textView.text, votes: self.dangScore)
+            let dangItem = DangItem(text: self.textView.text, votes: self.votes)
             let itemRef = self.ref.child(self.textView.text.lowercased().replacingOccurrences(of: ".", with: "-"))
             itemRef.setValue(dangItem.toAnyObject())
         }
