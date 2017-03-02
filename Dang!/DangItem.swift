@@ -25,6 +25,7 @@ struct DangItem {
     
     init(snapshot: FIRDataSnapshot) {
         let snapshotValue = snapshot.value as! [String:AnyObject]
+        print(snapshot.value)
         key = snapshot.key
         text = snapshotValue["text"] as! String
         votes = snapshotValue["votes"] as! String
